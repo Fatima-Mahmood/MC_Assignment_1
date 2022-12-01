@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+.offers {
+    background:#838080;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.menu{
+    padding: 10px 10px;
+    background:  rgb(39, 38, 38);
+    border-radius: 6px;
+    flex-basis: 81%;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 2%;
+    margin-top: 2px;
+}
+.menu2{
+    padding: 0px 0px 0px 0px;
+    border-radius: 6px;
+    flex-basis: 81%;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 2%;
+    margin-top: 2px;
+}
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    word-spacing: 5px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(39, 38, 38);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.title h1{
+    color:rgb(223, 158, 37);
+}
+.title p{
+    color:rgb(236, 210, 160)
+}
+.menu:hover{
+    box-shadow: 5px 0px 10px 0px rgba(92, 80, 80, 0.5);
+    transition:0.3s;
+}
+.menu p{
+    padding: 3px;
+    color: white;
+    font-size: 20px;
+}
+.menu p b{
+    font-size: 24px;
+    color: rgb(223, 158, 37);
+}
+
+.footer{
+    background: #838080;
+    padding-bottom: 45px; 
+    padding-top: 80px;
+    margin-top: 0px;
+} 
